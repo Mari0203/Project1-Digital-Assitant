@@ -35,7 +35,7 @@ function setBkgGreeting() {
     greeting.textContent = "Good Evening";
     document.body.style.color = "white";
     console.log(greeting.textContent);
-  }
+  } 
 
   // Night (8PM - 5:59AM) // (20 <= currentTime && currentTime < 6)
   else {
