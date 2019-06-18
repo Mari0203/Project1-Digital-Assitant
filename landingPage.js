@@ -3,6 +3,7 @@
   (greeting = document.getElementById("greeting")),
   (name = document.getElementById("name")),
   (caption = document.getElementById("caption")),
+  
   // Show Current Time
   setInterval(function() {
     var currentTime = moment().format("h:mm:ss a");
