@@ -47,8 +47,9 @@ function setBkgGreeting() {
   }
 }
 
-// Save input name in local storage
-// Get name
+// Save user input name in local storage
+  /* Check to see what's in local storage: If there's nothing in local storage for the name (i.e. 'null'), 
+     take the 'name' element and add the text cotent with default. */
 function getName() {
   if (local.Storage.getItem("name") === null) {
     name.textContent = "[Enter Your Name]";
@@ -57,9 +58,30 @@ function getName() {
   }
 }
 
+// Set name based on user input
+function setName(e) {
+  if (e.type === 'keypress') {
+    // Make sure the ENTER (key#13) is pressed:
+    if (e.which == 13 || e.keyCode == 13) {
+      localStorage.setItem("name", e.target.innerText);
+      name.blur();
+    }
+
+  } else {
+    localStorage.setItem("name", e.target.innerText);
+  }
+}
+
+// Event listener to take the name input when the user types it and hit 'Enter',
+// or when a user clicks somewhere else on the page away from input area (= "blur").
+// name.addEventListener("keypress", setName);
+// name.addEventListener("blur", setName);
+
+
 // ==== Call functions ====== //
 setBkgGreeting();
 getName();
+setName();
 
 // When user clicks the image (Baymax) it routes to 2nd page (main.html):
 $("#DA-image").on("click", function(e) {
