@@ -19,7 +19,7 @@ $("#submit-button").on("click", function() {
     console.log(response.text);
 
     // Transfer API response content to HTML:
-    $(".card-text").text(response.text);
+    $("#jokeDisplay").text(response.text);
     console.log(response);
   });
 });

@@ -1,6 +1,7 @@
 body{
     background-image: url("../images/lg-g7-thinq-1920x1080-abstract-colorful-android-8-0-4k-20613.jpg");
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #firstcontainer{
     /* background-color: rgba(0,0,0,0.5); */

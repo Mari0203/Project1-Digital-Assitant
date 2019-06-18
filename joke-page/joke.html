@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Joke per Click</title>
+    <title>Phil's Joke</title>
 
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -16,27 +16,38 @@
 </head>
 
 <body>
-
     <!-- Nav bar header -->
     <nav class="navbar" id="nav">
         <a class="navbar-brand" href="#" id="brand">
-            <img src="../images/Baymax_transparent.png" width="30" height="30"
-                class="d-inline-block align-top rounded-circle" alt="" id="logo">
-            Phil <p class="float-right" id="pagetitle">Joke per Click</p>
+            <img src="../images/Baymax_transparent.png" width="30" height="30" alt="" id="logo">
+            Phil <p class="float-right" id="pagetitle"> Joke</p>
         </a>
     </nav>
+    <br>
 
+    <!-- Main Section -->
     <div class="container">
         <div class="row text-center">
-            <h2>Feeling Down?</h2>
-            <h3></h3>
-        </div>
+            <div class="col-sm-12">
+                <h3>Feeling Down?</h3>
+            </div>
+            <div class="col-sm-12">
+                <p>Click below to hear my joke</p>
+            </div>
+            <div class="col-sm-12">
+                <img src="../images/Baymax_transparent.png" alt="Baymax_transparent" width="150px">
+            </div>
 
-    <!-- Random Joke Text Display Section -->
-            <p class="card-text" id="jokeDisplay"></p>
-            <button type="button" class="btn btn-primary" id="submit-button">Cheer me up!</button>
+            <!-- Random Joke Display Area -->
+            <div class="col-sm-12" id="jokeDisplay">
+            </div>
+            <br>
+            <div class="col-sm-12">
+                <button type="button" class="btn btn-primary" id="submit-button">Cheer me up!</button>
+            </div>
         </div>
     </div>
+    <br>
 
     <!-- Footer  -->
     <footer class="footer mt-auto  fixed-bottom py-0" id="footer">
