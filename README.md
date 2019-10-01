@@ -4,7 +4,7 @@
  ## User Story - As a User, I want to be able 
  
 
-**1. Who is your target audience? **
+**1. Who is your target audience?**
 Anyone who would like to be able to access information about sports, recipes, jokes, weather, and your schedule all in one place.
 
 **2. What is the problem that the product will address?**
@@ -20,4 +20,4 @@ Schedule (User's calendar events, CTA train schedule, etc.)
 Sports score (e.g. Cubs score)
 Recommended recipe for the day (e.g. based on ingredient, cuisine, health criteria (vegan, etc.))
 
- 
+Deployed Link: https://groupproject1-live1.herokuapp.com/ 
